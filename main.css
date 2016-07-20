@@ -128,3 +128,10 @@
     float: left;
     padding: 15px;
 }
+
+
+@media screen and (max-width: 768px) {
+    [class^="col-"] {
+        width: 100%;
+    } 
+}
